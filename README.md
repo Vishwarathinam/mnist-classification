@@ -46,9 +46,9 @@ Fit the model and predict the single input
 
 
 ## PROGRAM
-
-# Developed By:VISHWA RATHINAM S
-# Register Number:212221240063
+~~~
+### Developed By:VISHWA RATHINAM S
+### Register Number:212221240063
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -114,7 +114,7 @@ x_single_prediction = np.argmax(
      axis=1)
 print(x_single_prediction)
 plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
-
+~~~
 
 ## OUTPUT
 
